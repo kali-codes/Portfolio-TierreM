@@ -7,11 +7,12 @@
 }
 
 .logo {
-    max-width: 250px;
+    max-width: 38.82px;
+    padding-top: 2.5px;
 }
 
 img {
-    width:100;
+    width:100%;
 }
 
 header {
@@ -86,6 +87,7 @@ line-height: 1.4;
 h1 {
     font-size: 2.75em;
     font-weight: 700;
+    text-align: center;
 }
 
 h2 {
@@ -125,6 +127,7 @@ a:active {
 
 #linkedin {
     text-align:center;
+    margin-top: 15px;
 }
 
 .row {
@@ -178,7 +181,6 @@ a:active {
     place-items: center;
  }
 
-
 /* animation */
 @keyframes color-change {
     from {fill: #edc655;}
@@ -201,13 +203,63 @@ a:active {
         float: right;
         margin-top: 4px;
     }
+    nav > ul {
+        margin: 1em 0;
+        display: inline-block;
+    }
+    nav > ul > li {
+        display: inline-block
+    }
+    .logo {
+        max-width: 48px;
+        padding-top: 9px;
+    }    
+    main {
+        padding-top: 80px;
+    }
+    body {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    #hero {
+        text-align: center;
+    }
+    #hero span {
+        display: block;
+    }
+    main {
+        padding-top: 80px;
+    }
+    .container {
+        padding: 0 30px;
+    }
     .col-md-6 {
         width:50%;  
+    }
+    .col-md-8 {
+        width: 60%;
+        padding: 10px 20px 10px 10px;
+    }
+    .col-md-4 {
+        width: 40%;
+        padding: 20px;
     }
 }
 
 /*large screens*/
 @media only screen and (min-width:1024px) {
+    .logo {
+        max-width: 64px;
+        padding-top: 8px;
+    }
+    main {
+        padding-top: 100px;
+    }
+    .col-lg-8 {
+        width: 50%;
+    }
     .col-lg-7 {
         width:60%;
     }
@@ -215,9 +267,7 @@ a:active {
         width:40%;
     }
     .container {
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
+        padding: 0 50px;
     }
 }
 
@@ -228,7 +278,7 @@ a:active {
         float: left;
     }
     .container {
-        max-width: 1850px;
+        max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
     }
