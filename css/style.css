@@ -17,10 +17,13 @@ img {
 
 header {
     background-color:#606C38;
+    background: #606C38; 
+	border: solid #BDBDBD 1px; 
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ;
     padding: 10px 0;
     margin: 0;
-    position:relative;
-    width:100%
+    position:fixed;
+    width:100%;
 }
 
 nav > ul {
@@ -80,8 +83,9 @@ nav > ul > li > a:active {
 
 #hero {
     background-color: #606C38;
-    padding: 20px 0;
     display: inline-block;
+    margin: 0;
+    padding: 99px;
     width: 100%;
 }
 
@@ -173,7 +177,7 @@ a:active {
 
 .button {
     display:inline-block;
-    background-color:#BC6C25;
+    background-color:#dda15e;
     color: black;
     font-weight:400;
     text-decoration: none;
@@ -183,11 +187,11 @@ a:active {
     transition: 0.2s opacity;
 }
  .button:visited {
-    color: #606C38;
+    color: #414141;
  }
 
  .button:hover {
-    color: #dda15e;
+    color: #ddbea9;
     opacity: 0.8;
     text-decoration: none;
  }
